@@ -1,0 +1,3 @@
+import sqlite3
+conn = sqlite3.connect("guestbook.db")
+conn.execute('''create table GuestBook (ID integer primary key autoincrement, username text not null, comment text not null, posted_on date not null)''') 
