@@ -6,6 +6,7 @@ from models import GuestBook
 
 @route("/")
 @route("/index.html")
+@route("/bubblegum", "/index.html")
 class Index(BaseView):
     def __init__(self, file_path, status_code=200, content_type="text/html") -> None:
         super().__init__(file_path, status_code, content_type)
