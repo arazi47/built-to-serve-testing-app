@@ -1,0 +1,7 @@
+services:
+  webserver-example:
+    build: .
+    ports:
+      - "80:8000"
+    volumes:
+      - ./guestbook.db:/app/guestbook.db
