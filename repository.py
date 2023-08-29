@@ -1,4 +1,4 @@
-from built_to_serve_arazi47.repository import Repository
+from ws2g.repository.sqlrepository import SqlRepository
 
-class GuestBookRepository(Repository):
+class GuestBookRepository(SqlRepository):
     pass

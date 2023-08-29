@@ -1,7 +1,19 @@
 services:
-  webserver-example:
+  ws2g-example:
     build: .
     ports:
       - "80:8000"
     volumes:
       - ./guestbook.db:/app/guestbook.db
+  #   depends_on:
+  #     - mongo
+  # mongo:
+  #   image: mongo
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME=admin
+  #     - MONGO_INITDB_ROOT_PASSWORD=admin
+  # mongo-express:
+  #   image: mongo-express
+  #   depends_on:
+  #     - mongo
+  

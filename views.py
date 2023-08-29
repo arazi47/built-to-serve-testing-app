@@ -1,5 +1,5 @@
-from built_to_serve_arazi47.views import route, BaseView, render
-from built_to_serve_arazi47.custom_content_parser import transform_template_to_code
+from ws2g.views import route, BaseView, render
+from ws2g.custom_content_parser import transform_template_to_code
 from datetime import datetime
 from repository import GuestBookRepository
 from models import GuestBook
