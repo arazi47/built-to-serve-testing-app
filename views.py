@@ -1,5 +1,5 @@
-from ws2g.views import route, BaseView, render
-from ws2g.custom_content_parser import transform_template_to_code
+from ws2g.views.views import route, BaseView, render
+from ws2g.custom_content_parser.custom_content_parser import transform_template_to_code
 from datetime import datetime
 from repository import GuestBookRepository
 from models import GuestBook
