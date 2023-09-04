@@ -1,4 +1,4 @@
-from ws2g.views import views
+import views
 from ws2g.main import run
 
 run()
